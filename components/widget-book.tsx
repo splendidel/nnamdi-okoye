@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import Book from '@/public/images/book.png'
+import Book from '@/public/images/hon-nnamdi-okoye-campaign-banner.jpeg'
 
 export default function WidgetBook() {
   return (
     <div className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-linear-to-t dark:from-slate-800 dark:to-slate-800/30 odd:rotate-1 even:-rotate-1 p-5">
-      <div className="font-aspekta font-[650] text-center mb-3">Free E-Book</div>
+      <div className="font-aspekta font-[650] text-center mb-3">For Senate</div>
       <div className="text-center">
-        <Image className="inline-flex rounded-lg shadow-lg rotate-3" src={Book} width={148} height={190} alt="Book" />
+        <Image className="inline-flex rounded-lg shadow-lg rotate-3" src={Book} width={200} height={190} alt="Book" />
       </div>
     </div>
   )

@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import Image from 'next/image'
-import HeroImage from '@/public/images/me.jpg'
+import HeroImage from '@/public/images/hon-nnamdi-okoye-ikenga.jpeg'
 
 export default function SideNavigation() {
 
@@ -16,7 +16,7 @@ export default function SideNavigation() {
           {pathname !== '/' && (
             <div className="flex justify-center my-4">
               <Link href="/">
-                <Image className="rounded-full" src={HeroImage} width={32} height={32} priority alt="Me" />
+                <Image className="rounded-full" src={HeroImage} width={32} height={32} priority alt="hon-nnamdi-okoye" />
               </Link>
             </div>
           )}

@@ -30,11 +30,11 @@ export default async function Home() {
         <div className="grow">
           <div className="max-w-175">
             <div className="space-y-10">
-
+{/* 
               <section>
                 <h2 className="font-aspekta text-xl font-[650] mb-3">Latest Articles</h2>
 
-                {/* Filters */}
+                {/* Filters 
                 <ul className="flex flex-wrap text-sm border-b border-slate-100 dark:border-slate-800">
                   <li className="px-3 -mb-px">
                     <a className="block py-3 font-medium text-slate-800 dark:text-slate-100 border-b-2 border-sky-500" href="#0">
@@ -58,13 +58,13 @@ export default async function Home() {
                   </li>
                 </ul>
 
-                {/* Articles list */}
+                {/* Articles list 
                 <div>
                   {allBlogs.map((post, postIndex) => (
                       <PostItem key={postIndex} {...post} />
                   ))}
                 </div>
-              </section>
+              </section> */}
 
               <Talks />
               <FeaturedProjects />

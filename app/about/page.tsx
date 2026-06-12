@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import WidgetNewsletter from '@/components/widget-newsletter'
 import WidgetSponsor from '@/components/widget-sponsor'
-import AboutImg from '@/public/images/about.png'
+import AboutImg from '@/public/images/hon-nnamdi-okoye-emmanuel.jpeg'
 import Experience from '@/components/experience'
 
 export const metadata = {
@@ -19,9 +19,16 @@ export default function About() {
 
           <section>
             { /* Page title */}
-            <h1 className="h1 font-aspekta mb-5">Hi. I'm Hon.Nnamdi Okoye (Ikenga) </h1>
+            <h1 className="h1 font-aspekta mb-5">Hi. I'm Hon.Nnamdi Emmanuel  Okoye (Ikenga) </h1>
 
-            <Image className="w-full" src={AboutImg} width={692} height={390} alt="About" />
+              <div className="relative w-150 h-150 my-8">
+              <Image className="rounded-full object-cover object-top" 
+                          src={AboutImg} 
+                          alt="hon-nnamdi-okoye-emmanuel" 
+                          fill 
+                          />
+              </div>
+            
             { /* Page content */}
             <div className="text-slate-500 dark:text-slate-400 space-y-8">
               <div className="space-y-4">
